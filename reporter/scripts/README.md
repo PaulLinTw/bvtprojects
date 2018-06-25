@@ -1,0 +1,1 @@
+scripts folder is used to place any customed shell scripts involved to provision a virtual machine. You should look up and quote item(s) inside scripts folder in git bvt-resources(http://paullin@192.168.1.121/paullin/bvt-resources.git/tree/master/scripts/).

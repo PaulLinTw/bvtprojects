@@ -1,0 +1,11 @@
+[ 
+	{
+ 		"name": "report",
+ 		"size": 1,
+		"startip" :  100,
+		"host": "paulcentos",
+		"provision": ["initial_red.sh"],
+		"alwaysrun": [],
+		"conf": ["red/report","red/newlog","red/settings.js"]
+	}
+]
