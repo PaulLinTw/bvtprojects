@@ -6,7 +6,7 @@
 		{	"host": "paulcentos",
 			"account": "paul",
 			"keyfile": "/home/btserver/keys/paul",
-			"vagrantpath": "/home/paul/global",
+			"vagrantpath": "/home/paul/bvt",
 			"nic": "wlp2s0",
 			"defaultbox": "CentOS-JDK8"
 		}
