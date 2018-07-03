@@ -1,0 +1,52 @@
+[ 
+	{
+ 		"name": "master",
+ 		"size": 1,
+		"memory": 4096,
+		"disk": 40,
+		"cpu": 2,
+		"startip" :  150,
+		"host": "dsc-03",
+		"provision": ["initiate_hdfs.sh","initiate_scala.sh","initiate_spark.sh"],
+		"alwaysrun": [],
+		"conf": []
+	},
+	{
+ 		"name": "slave",
+ 		"size": 1,
+		"memory": 2048,
+		"disk": 40,
+		"cpu": 1,
+		"startip" :  151,
+		"host": "dsc-01",
+		"provision": [],
+		"alwaysrun": [],
+		"conf": []
+	},
+	{
+ 		"name": "slave",
+ 		"size": 1,
+		"memory": 2048,
+		"disk": 40,
+		"cpu": 1,
+		"startip" :  152,
+		"startid" :  2,
+		"host": "dsc-02",
+		"provision": [],
+		"alwaysrun": [],
+		"conf": []
+	},
+	{
+ 		"name": "slave",
+ 		"size": 1,
+		"memory": 2048,
+		"disk": 40,
+		"cpu": 1,
+		"startip" :  153,
+		"startid" :  3,
+		"host": "dsc-03",
+		"provision": [],
+		"alwaysrun": [],
+		"conf": []
+	}
+]

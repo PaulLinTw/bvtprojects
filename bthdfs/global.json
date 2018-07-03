@@ -1,0 +1,37 @@
+{
+	"project": "bthdfs",
+	"network": "192.168.1.",
+	"domain": "dsclab.com",
+	"nettype": "bridged",
+	"hosts": 
+	[
+		{	"host": "dsc-01",
+			"account": "btserver",
+			"vagrantpath": "/home/btserver/vagrantFiles/bvt",
+			"nic": "enp3s0",
+			"defaultbox": "CentOS-JDK8"
+		},
+		{	"host": "dsc-02",
+			"account": "btserver",
+			"vagrantpath": "/home/btserver/vagrantFiles/bvt",
+			"nic": "enp3s0",
+			"defaultbox": "CentOS-JDK8"
+		},
+		{	"host": "dsc-03",
+			"account": "btserver",
+			"vagrantpath": "/home/btserver/vagrantFiles/bvt",
+			"nic": "enp3s0",
+			"defaultbox": "CentOS-JDK8"
+		}
+	],
+	"builder":
+	{
+		"nic": "enp3s0",
+		"box": "CentOS-JDK8"		
+	},
+	"resource": 
+	{
+		"site": "http://dscgitlab/paullin/bvt-resources",
+		"tag": "master"
+	}
+}

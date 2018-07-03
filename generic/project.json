@@ -1,0 +1,64 @@
+[ 
+	{
+ 		"name": "kvstore",
+ 		"size": 1,
+		"memory": 2048,
+		"disk": 40,
+		"cpu": 2,
+		"startip" :  199,
+		"host": "dsc-01",
+		"provision": [],
+		"alwaysrun": [],
+		"conf": []
+	},
+	{
+ 		"name": "worker",
+ 		"size": 1,
+		"memory": 12288,
+		"disk": 100,
+		"cpu": 2,
+		"startip" :  201,
+		"host": "dsc-01",
+		"provision": [],
+		"alwaysrun": [],
+		"conf": []
+	},
+	{
+ 		"name": "master",
+ 		"size": 1,
+		"memory": 8192,
+		"disk": 100,
+		"cpu": 2,
+		"startip" :  200,
+		"host": "dsc-02",
+		"provision": [],
+		"alwaysrun": [],
+		"conf": []
+	},
+	{
+ 		"name": "worker",
+ 		"size": 1,
+		"memory": 12288,
+		"disk": 100,
+		"cpu": 2,
+		"startip" :  202,
+		"startid" :  2,
+		"host": "dsc-02",
+		"provision": [],
+		"alwaysrun": [],
+		"conf": []
+	},
+	{
+ 		"name": "worker",
+ 		"size": 1,
+		"memory": 12288,
+		"disk": 100,
+		"cpu": 2,
+		"startip" :  203,
+		"startid" :  3,
+		"host": "dsc-03",
+		"provision": [],
+		"alwaysrun": [],
+		"conf": []
+	}
+]

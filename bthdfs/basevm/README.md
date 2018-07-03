@@ -1,0 +1,1 @@
+project basevm folder is used as a vagrant folder when creating new box is needded, any customed file involved to create a box should be placed in share folder. You should look up basevm folder in git bvt-resources (http://paullin@192.168.1.121/paullin/bvt-resources.git/tree/master/basevm/) for reusable materials.
