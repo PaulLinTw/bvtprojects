@@ -1,0 +1,19 @@
+---
+## Default Logstash configuration from logstash-docker.
+## from https://github.com/elastic/logstash-docker/blob/master/build/logstash/config/logstash-x-pack.yml
+#
+#
+http.host: "0.0.0.0"
+path.config: /usr/share/logstash/pipeline
+xpack.monitoring.enabled: true
+xpack.monitoring.elasticsearch.url: http://192.168.1.200:9200
+xpack.monitoring.elasticsearch.username: logstash_system
+xpack.monitoring.elasticsearch.password: changeme  # unset by default. see:
+                                                   # https://www.elastic.co/guide/en/logstash/current/ls-security.html#ls-monitoring-user
+node.name: "slave1"
+
+pipeline:
+  batch:
+    size: 1000
+    delay: 10
+

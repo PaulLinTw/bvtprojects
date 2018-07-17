@@ -1,0 +1,299 @@
+    1  ls
+    2  cd share/
+    3  ls
+    4  ls -la
+    5  cd ..
+    6  ls
+    7  cd ..
+    8  ls
+    9  cd vagrant/
+   10  ls share/ -la
+   11  exit
+   12  cd /media/
+   13  ls
+   14  cd cdrom/
+   15  ls
+   16  sudo mount /dev/cdrom /media/cdrom
+   17  cd cdrom/
+   18  ls
+   19  sudo mount /dev/cdrom /media/cdrom
+   20  ls
+   21  cd ..
+   22  ls
+   23  cd cdrom/
+   24  ls
+   25  sudo ./VBoxLinuxAdditions.run 
+   26  ls
+   27  sudo ./runasroot.run 
+   28  sudo ./runasroot.sh
+   29  cat VBoxLinuxAdditions.run 
+   30  exit
+   31  shutdown
+   32  sudo shutdown
+   33  sudo shutdown -h
+   34  sudo shutdown help
+   35  sudo shutdown -h now
+   36  exit
+   37  ifconfig
+   38  ipconfig
+   39  python --version
+   40  ls
+   41  exit
+   42  ifconfig
+   43  ipconfig
+   44  sudo yum install ifconfig
+   45  sudo yum install net-tools
+   46  ifconfig
+   47  service iptables status
+   48  ls ~/
+   49  ls /
+   50  cd opt
+   51  cd /
+   52  cd opt
+   53  ls
+   54  rm -rf jdk1.8/
+   55  sudo rm -rf jdk1.8/
+   56  ls
+   57  cd java
+   58  ls
+   59  cd jdk1.8.0_102/
+   60  ls
+   61  sudo nano /etc/sudoers
+   62  sudo nano /etc/ssh/sshd_config 
+   63  service sshd restart
+   64  ls
+   65  cd ..
+   66  ls
+   67  ls -la
+   68  cd ..
+   69  ls
+   70  cd java/
+   71  ls -la
+   72  cd jdk1.8.0_102/
+   73  ls
+   74  ls /home/
+   75  ls
+   76  cd ~/
+   77  ls
+   78  cd .ssh
+   79  ls -la
+   80  sudo chmod 644 authorized_keys 
+   81  ls -la
+   82  cd ..
+   83  ls -la
+   84  sudo nano /etc/sudoers
+   85  ls
+   86  cd /opt
+   87  ls
+   88  cd java/
+   89  ls
+   90  ls jdk1.8.0_102/
+   91  ls jdk1.8.0_102/ -la
+   92  cd ..
+   93  ls
+   94  cd java
+   95  ls
+   96  sudo rm -rf jdk1.8.0_102/
+   97  ls
+   98  unzip
+   99  sudo yum install zip unzip -y
+  100  ls
+  101  cd ..
+  102  cd java
+  103  sudo mkdir jdk1.8.0_102
+  104  sudo chmod 755 jdk1.8.0_102
+  105  unzip
+  106  tar
+  107  ls
+  108  cd ~/
+  109  ls
+  110  ls -la
+  111  cd /
+  112  ls -la
+  113  cd ~/.ssh/
+  114  ls
+  115  rm authorized_keys 
+  116  service sshd restart
+  117  cd ..
+  118  ls
+  119  cd sh
+  120  雌
+  121  cd share/
+  122  ls
+  123  cp test.txt /opt/
+  124  sudo cp test.txt /opt/
+  125  cd /opt
+  126  ls
+  127  rm test.txt 
+  128  sudo rm -rf test.txt 
+  129  ls
+  130  exit
+  131  ls
+  132  cd opt
+  133  cd /opt
+  134  ls
+  135  sudo rm -rf readme.txt 
+  136  exit
+  137  cd /etc/lib
+  138  cd /usr/lib
+  139  ls
+  140  cd jvm/
+  141  ls
+  142  cd /
+  143  cd ~/
+  144  ls
+  145  sudo rm -rf jdk1.8.0_102/
+  146  sudo rm jdk-8u102-linux-x64.tar.gz 
+  147  sudo rm jce_policy-8.zip 
+  148  ls
+  149  sudo yum clean all
+  150  sudo yum check-update
+  151  sudo yum update -y
+  152  exit
+  153  ls
+  154  java -version
+  155  cd share/
+  156  ls
+  157  ifconfig
+  158  ls
+  159  cd ..
+  160  ls
+  161  tar -zxvf jdk-8u102-linux-x64.tar.gz 
+  162  ls
+  163  sudo cp jdk1.8.0_102/ /usr/lib/jvm
+  164  ls /usr/lib/jvm
+  165  sudo mkdir /usr/lib/jvm
+  166  sudo cp jdk1.8.0_102/ /usr/lib/jvm
+  167  ls
+  168  sudo cp jdk1.8.0_102 /usr/lib/jvm
+  169  sudo cp ~/jdk1.8.0_102/ /usr/lib/jvm
+  170  ls -la
+  171  java
+  172  sudo cp jdk-8u102-linux-x64.tar.gz /usr/lib/jvm
+  173  cd /usr/lib/
+  174  ls
+  175  cd jvm
+  176  ls
+  177  tar xzf jdk-8u102-linux-x64.tar.gz 
+  178  ls
+  179  sudo tar xzf jdk-8u102-linux-x64.tar.gz 
+  180  ls
+  181  sudo rm jdk-8u102-linux-x64.tar.gz 
+  182  ./java
+  183  cd jdk1.8.0_102/
+  184  ./java
+  185  ./java -version
+  186  ls
+  187  cd bin
+  188  ./java -version
+  189  sudo nano /etc/profile
+  190  resource /etc/profile
+  191  source /etc/profile
+  192  java -version
+  193  sudo source /etc/profile
+  194  source /etc/profile
+  195  java
+  196  sudo shutdown -h now
+  197  ls
+  198  java --version
+  199  sudo nano /etc/profile
+  200  source /etc/profile
+  201  java --version
+  202  java -version
+  203  curl
+  204  ls
+  205  sudo yum check-update
+  206  ping 8.8.8.8
+  207  exit
+  208  ls
+  209  ls share/
+  210  ls share/ -l
+  211  cp share/*.repo /etc/yum.repos.d/
+  212  sudo cp share/*.repo /etc/yum.repos.d/
+  213  ls /etc/yum.repos.d/
+  214  ls /etc/yum.repos.d/ -l
+  215  ls share/ -l
+  216  sudo cp share/*.repo /etc/yum.repos.d/
+  217  ls /etc/yum.repos.d/ -l
+  218  ls share/ -l
+  219  sh share/initial_master.sh 
+  220  cat share/initial_master.sh 
+  221  vi share/initial_master.sh 
+  222  sh share/initial_master.sh 
+  223  ls
+  224  systemctl status
+  225  ls share/ -l
+  226  cat share/initial_master.sh 
+  227  systemctl status elasticsearch.service
+  228  sudo /bin/systemctl daemon-reload
+  229  sudo /bin/systemctl enable elasticsearch.service
+  230  system enable elasticsearch.service
+  231  systemctl enable elasticsearch.service
+  232  sudo systemctl enable elasticsearch.service
+  233  sudo systemctl enable elasticsearch
+  234  sudo systemctl start elasticsearch
+  235  sh share/initial_master.sh 
+  236  sudo su -
+  237  sudo systemctl start elasticsearch
+  238  sudo systemctl enable elasticsearch
+  239  ls
+  240* cat aster.sh 
+  241  sh share/initial_master.sh 
+  242  wget https://artifacts.elastic.co/downloads/elasticsearch/elasticsearch-6.3.1.rpm
+  243  ls
+  244  ls share/ -L
+  245  ls share/ -l
+  246  sh share/initial_master.sh 
+  247  systemctl status kibana
+  248  ps aux | grep java
+  249  ls -l
+  250  sudo rpm -ivh jre-*.rpm
+  251  which java
+  252  echo $JAVA_HOME
+  253  echo $PATH
+  254  sudo rpm -ivh elasticsearch-6.3.1.rpm
+  255  sudo vi /etc/elasticsearch/jvm.options
+  256  vi share/elasticsearch_cluster.yml 
+  257  sudo cp share/elasticsearch_cluster.yml /etc/elasticsearch/elasticsearch.yml
+  258  ls /etc/elasticsearch/ -l
+  259  sudo ls /etc/elasticsearch/ -l
+  260  sudo vi /etc/elasticsearch/elasticsearch.yml
+  261  sudo systemctl daemon-reload
+  262  sudo systemctl enable elasticsearch.service
+  263  systemctl status elasticsearch.service 
+  264  vi share/elasticsearch_cluster.yml 
+  265  sudo vi /etc/elasticsearch/elasticsearch.yml
+  266  systemctl start elasticsearch.service 
+  267  sudo systemctl start elasticsearch.service 
+  268  systemctl status elasticsearch.service 
+  269  curl http://localhost:9200/_cat/nodes
+  270  netstat -lptn
+  271  systemctl status elasticsearch.service 
+  272  echo $PID_DIR
+  273  ls
+  274  ls /etc/elasticsearch/
+  275  sudo ls /etc/elasticsearch/
+  276  ls /var/log/elasticsearch/
+  277  sudo ls /var/log/elasticsearch/
+  278  sudo ls /var/log/elasticsearch/ -l
+  279  sudo vi /var/log/elasticsearch/gc.log.0.current
+  280  sudo ls /var/log/elasticsearch/
+  281  sudo systemctl restart elasticsearch.service 
+  282  systemctl status elasticsearch.service 
+  283  systemctl stop firewalld
+  284  systemctl status firewalld
+  285  cat vi /etc/elasticsearch/elasticsearch.yml
+  286  sudo cat /etc/elasticsearch/elasticsearch.yml
+  287  sudo vi  /etc/elasticsearch/elasticsearch.yml
+  288  sudo systemctl restart elasticsearch.service 
+  289  systemctl status elasticsearch.service 
+  290  echo $JAVA_HOME
+  291  sudo alternatives --config java
+  292  vi /etc/profile
+  293  sudo vi /etc/profile
+  294  sudo systemctl restart elasticsearch.service 
+  295  systemctl status elasticsearch.service 
+  296  ls /var/log/elasticsearch/
+  297  ls /var/log/elasticsearch/ -l
+  298  sudo ls /var/log/elasticsearch/ -l
+  299  history > share/history.txt

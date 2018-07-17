@@ -1,0 +1,41 @@
+[ 
+	{
+ 		"name": "master",
+ 		"size": 1,
+		"memory": 8192,
+		"disk": 40,
+		"cpu": 4,
+		"startip" :  199,
+		"host": "dsc-01",
+		"provision": [],
+		"alwaysrun": [],
+		"conf": ["elasticsearch.repo",
+			"kibana.repo",
+			"logstash.repo",
+			"elasticsearch_cluster.yml",
+			"kibana.yml",
+			"logstash.yml",
+			"logstash.conf",
+			"initial_master.sh",
+			"start_master.sh"]
+	},
+	{
+ 		"name": "slave",
+ 		"size": 1,
+		"memory": 8192,
+		"disk": 40,
+		"cpu": 4,
+		"startip" :  200,
+		"host": "dsc-02",
+		"provision": [],
+		"alwaysrun": [],
+		"conf": ["elasticsearch.repo",
+			"logstash.repo",
+			"elasticsearch_cluster.yml",
+			"kibana.yml",
+			"logstash.yml",
+			"logstash.conf",
+			"initial_slave.sh",
+			"start_slave.sh"]
+	}
+]

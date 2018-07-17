@@ -1,0 +1,10 @@
+cluster.name: "dev-cluster"
+node.name: "slave"
+xpack.security.enabled: false
+path.data: /var/lib/elasticsearch
+path.logs: /var/log/elasticsearch
+network.host: 192.168.1.207
+http.port: 9200
+discovery.zen.minimum_master_nodes: 1
+discovery.zen.ping.unicast.hosts: [ "192.168.1.206" ]
+discovery.type: zen
