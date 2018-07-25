@@ -13,4 +13,4 @@ pipeline:
     size: 5000
     delay: 10000
 node:
-  name: "lg1"
+  name: "mlg1"

@@ -1,0 +1,1 @@
+conf folder is used to place any customed configuration file involved to create a virtual machine. You should look up and quote item(s) inside configs folder in git bvt-resources (http://paullin@192.168.1.121/paullin/bvt-resources.git/tree/master/configs/).

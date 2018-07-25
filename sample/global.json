@@ -1,0 +1,26 @@
+{
+	"project": "sample",
+	"network": "192.168.43.",
+	"nettype": "HostOnly",
+	"hosts": 
+	[
+		{	"host": "paulcentos",
+			"account": "paul",
+			"keyfile": "/home/paul/.ssh/id_rsa",
+			"vagrantpath": "/home/paul/bvt",
+			"nic": "wlp2s0",
+			"defaultbox": "CentOS_JDK8"
+		}
+	],
+	"builder":
+	{
+		"nic": "wlp2s0",
+		"box": "CentOS_JDK8"		
+	},
+	"resource": 
+	{
+		"_site": "http://192.168.1.121/paullin/bvt-resources/raw",
+		"site": "https://raw.githubusercontent.com/PaulLinTw/vt-resources",
+		"tag": "master"
+	}
+}
