@@ -9,25 +9,25 @@
 			"account": "btserver",
 			"vagrantpath": "/home/btserver/vagrantFiles/bvt",
 			"nic": "enp3s0",
-			"defaultbox": "CentOS-JDK8"
+			"defaultbox": "CentOS_JDK8"
 		},
 		{	"host": "dsc-02",
 			"account": "btserver",
 			"vagrantpath": "/home/btserver/vagrantFiles/bvt",
 			"nic": "enp3s0",
-			"defaultbox": "CentOS-JDK8"
+			"defaultbox": "CentOS_JDK8"
 		},
 		{	"host": "dsc-03",
 			"account": "btserver",
 			"vagrantpath": "/home/btserver/vagrantFiles/bvt",
 			"nic": "enp3s0",
-			"defaultbox": "CentOS-JDK8"
+			"defaultbox": "CentOS_JDK8"
 		}
 	],
 	"builder":
 	{
 		"nic": "enp3s0",
-		"box": "CentOS-JDK8"		
+		"box": "CentOS_JDK8"		
 	},
 	"resource": 
 	{

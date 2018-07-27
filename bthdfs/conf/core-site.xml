@@ -19,11 +19,11 @@
 <configuration>
 	<property>
 		<name>fs.default.name</name>
-		<value>master1:9000</value>
+		<value>hdmaster1:9000</value>
 	</property>
 	<property>
 		<name>fs.defaultFS</name>
-		<value>hdfs://master1:9000</value>
+		<value>hdfs://hdmaster1:9000</value>
 	</property>
 	<property>
 		<name>hadoop.tmp.dir</name>

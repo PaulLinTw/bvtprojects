@@ -27,6 +27,7 @@
 			"defaultbox": "CentOS_JDK8"
 		}
 	],
+	"relatedprojects": [ "/home/paul/bvtprojects/bthdfs" ],
 	"builder":
 	{
 		"nic": "enp3s0",

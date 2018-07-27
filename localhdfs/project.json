@@ -7,11 +7,12 @@
 		"cpu": 2,
 		"startip" :  150,
 		"host": "paulcentos",
-		"provision": ["initiate_hdfs.sh","initiate_scala.sh","initiate_spark.sh"],
+		"provision": ["initiate_hdfs.sh","initiate_scala.sh","initiate_spark.sh","initiate_ge.sh"],
 		"alwaysrun": [],
 		"conf": [	"formate_hdfs.sh","deploy_cluster.sh",
 				"stop_hdfs.sh","start_hdfs.sh","stop_spark.sh","start_spark.sh","spark-env.sh",
-				"core-site.xml","hdfs-site.xml","mapred-site.xml","slaves","workers","yarn-site.xml"]
+				"core-site.xml","hdfs-site.xml","mapred-site.xml","slaves","workers",
+				"yarn-site.xml","ge_mapping","metrics.properties","start_graphite_exporter.sh"]
 	},
 	{
  		"name": "slave",

@@ -1,23 +1,24 @@
 [ 
 	{
- 		"name": "master",
+ 		"name": "hdmaster",
  		"size": 1,
 		"memory": 4096,
 		"disk": 40,
 		"cpu": 2,
 		"startip" :  150,
 		"host": "dsc-03",
-		"provision": ["initiate_hdfs.sh","initiate_scala.sh","initiate_spark.sh"],
+		"provision": ["initiate_hdfs.sh","initiate_scala.sh","initiate_spark.sh","initiate_ge.sh","initial_prometheus.sh"],
 		"alwaysrun": [],
 		"conf": [	"formate_hdfs.sh","deploy_cluster.sh",
 				"stop_hdfs.sh","start_hdfs.sh","stop_spark.sh","start_spark.sh","spark-env.sh",
-				"core-site.xml","hdfs-site.xml","mapred-site.xml","slaves","workers","yarn-site.xml"]
+				"core-site.xml","hdfs-site.xml","mapred-site.xml","slaves","workers",
+				"yarn-site.xml","ge_mapping","metrics.properties","start_graphite_exporter.sh"]
 	},
 	{
- 		"name": "slave",
+ 		"name": "hdslave",
  		"size": 1,
 		"memory": 2048,
-		"disk": 40,
+		"disk": 100,
 		"cpu": 1,
 		"startip" :  151,
 		"host": "dsc-01",
@@ -26,10 +27,10 @@
 		"conf": []
 	},
 	{
- 		"name": "slave",
+ 		"name": "hdslave",
  		"size": 1,
 		"memory": 2048,
-		"disk": 40,
+		"disk": 100,
 		"cpu": 1,
 		"startip" :  152,
 		"startid" :  2,
@@ -39,10 +40,10 @@
 		"conf": []
 	},
 	{
- 		"name": "slave",
+ 		"name": "hdslave",
  		"size": 1,
 		"memory": 2048,
-		"disk": 40,
+		"disk": 100,
 		"cpu": 1,
 		"startip" :  153,
 		"startid" :  3,

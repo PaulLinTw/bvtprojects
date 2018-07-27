@@ -15,7 +15,7 @@
 <configuration>
 	<property>
 		<name>yarn.resourcemanager.hostname</name>
-		<value>master1</value>
+		<value>hdmaster1</value>
 	</property>
 	<property>
 		<!-- Shuffle service that needs to be set for Map Reduce applications. -->

@@ -19,7 +19,7 @@
 <configuration>
 	<property>
 		<name>dfs.namenode.secondary.http-address</name>
-		<value>master1:50090</value>
+		<value>hdmaster1:50090</value>
 	</property>
 	<property>
 		<name>dfs.namenode.name.dir</name>
@@ -32,5 +32,13 @@
 	<property>
 		<name>dfs.replication</name>
 		<value>3</value>
+	</property>
+	<property> 
+		<name>dfs.block.size</name> 
+		<value>33554432</value> 
+	</property>
+	<property>
+		<name>dfs.webhdfs.enabled</name>
+		<value>true</value>
 	</property>
 </configuration>
