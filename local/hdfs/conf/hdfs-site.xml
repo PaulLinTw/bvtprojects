@@ -18,16 +18,27 @@
 
 <configuration>
 	<property>
-		<name>fs.default.name</name>
-		<value>master1:9000</value>
+		<name>dfs.namenode.secondary.http-address</name>
+		<value>@PREFIXER_master1:50090</value>
 	</property>
 	<property>
-		<name>fs.defaultFS</name>
-		<value>hdfs://master1:9000</value>
+		<name>dfs.namenode.name.dir</name>
+		<value>file:/usr/local/hadoop/tmp/dfs/name</value>
 	</property>
 	<property>
-		<name>hadoop.tmp.dir</name>
-		<value>file:/usr/local/hadoop/tmp</value>
-		<description>Abase for other temporary directories.</description>
+		<name>dfs.datanode.data.dir</name>
+		<value>file:/usr/local/hadoop/tmp/dfs/data</value>
+	</property>
+	<property>
+		<name>dfs.replication</name>
+		<value>3</value>
+	</property>
+	<property> 
+		<name>dfs.block.size</name> 
+		<value>33554432</value> 
+	</property>
+	<property>
+		<name>dfs.webhdfs.enabled</name>
+		<value>true</value>
 	</property>
 </configuration>

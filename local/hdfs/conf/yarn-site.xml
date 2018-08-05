@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/xsl" href="configuration.xsl"?>
+<?xml version="1.0"?>
 <!--
   Licensed under the Apache License, Version 2.0 (the "License");
   you may not use this file except in compliance with the License.
@@ -13,28 +12,19 @@
   See the License for the specific language governing permissions and
   limitations under the License. See accompanying LICENSE file.
 -->
-
-<!-- Put site-specific property overrides in this file. -->
-
 <configuration>
 	<property>
-		<name>dfs.namenode.secondary.http-address</name>
-		<value>master1:50090</value>
+		<name>yarn.resourcemanager.hostname</name>
+		<value>@PREFIXER_master1</value>
 	</property>
 	<property>
-		<name>dfs.namenode.name.dir</name>
-		<value>file:/usr/local/hadoop/tmp/dfs/name</value>
+		<!-- Shuffle service that needs to be set for Map Reduce applications. -->
+		<name>yarn.nodemanager.aux-services</name>
+		<value>mapreduce_shuffle</value>
 	</property>
 	<property>
-		<name>dfs.datanode.data.dir</name>
-		<value>file:/usr/local/hadoop/tmp/dfs/data</value>
+		<!-- default executor instances per worker. -->
+		<name>spark.executor.instances</name>
+		<value>1</value>
 	</property>
-	<property>
-		<name>dfs.replication</name>
-		<value>3</value>
-	</property>
-	<property> 
-		<name>dfs.block.size<name> 
-		<value>67108864<value> 
-	<property>
 </configuration>

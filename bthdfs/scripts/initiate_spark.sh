@@ -14,11 +14,12 @@ tar -zxf ./spark-$sp_ver-bin-hadoop$hd_ver.tgz -C /usr/local
 cd /usr/local/
 
 mv ./spark-$sp_ver-bin-hadoop$hd_ver ./spark
-chown vagrant.vagrant -R spark
 
 echo "copy config file into spark"
 cp /home/vagrant/share/spark-env.sh /usr/local/spark/conf/
 echo "export JAVA_HOME=$JAVA_HOME" >> /usr/local/spark/conf/spark-env.sh
+
+chown vagrant.vagrant -R spark
 
 echo "zipping spark folder .."
 cd /usr/local

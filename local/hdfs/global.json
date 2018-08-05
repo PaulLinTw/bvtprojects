@@ -1,0 +1,40 @@
+{
+	"project": "hdfs",
+	"network": "192.168.56.",
+	"nettype": "hostonly",
+	"hosts": 
+	[
+		{	"host": "paulcentos",
+			"account": "paul",
+			"keyfile": "/home/paul/.ssh/id_rsa",
+			"vagrantpath": "/home/paul/vt_wokrspace",
+			"nic": "wlp2s0",
+			"defaultbox": "CentOS_JDK8"
+		}
+	],
+	"builder":
+	{
+		"nic": "wlp2s0",
+		"box": "CentOS_JDK8"		
+	},
+	"resource": 
+	{
+		"site": "https://raw.githubusercontent.com/PaulLinTw/vt-resources",
+		"tag": "master"
+	},
+	"replacement": 
+	{	"project":
+		{	"PREFIXER_":"hdfs"	},
+		"scripts":
+		{
+		},
+		"conf":
+		{	"PREFIXER_":"hdfs",
+			"MemPerWorker":"768m",
+			"MemPerExecutor":"256m",
+			"MemPerDriver":"256m",
+			"CoresPerWorker":"2",
+			"CoresPerExecutor":"1"
+		}
+	}
+}

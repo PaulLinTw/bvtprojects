@@ -29,6 +29,7 @@
 		"nic": "enp3s0",
 		"box": "CentOS_JDK8"		
 	},
+	"relatedprojects": [ "/home/paul/bvtprojects/elk_dev" ],
 	"resource": 
 	{
 		"site": "http://dscgitlab/paullin/bvt-resources/raw",

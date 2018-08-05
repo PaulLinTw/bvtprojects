@@ -1,0 +1,38 @@
+[ 
+	{
+ 		"name": "kvstore",
+ 		"size": 1,
+		"memory": 1024,
+		"disk": 150,
+		"cpu": 1,
+		"startip" :  199,
+		"host": "paulcentos",
+		"provision": [],
+		"alwaysrun": ["start_portainter.sh"],
+		"conf": []
+	},
+	{
+ 		"name": "master",
+ 		"size": 1,
+		"memory": 2048,
+		"disk": 200,
+		"cpu": 2,
+		"startip" :  200,
+		"host": "paulcentos",
+		"provision": [],
+		"alwaysrun": [],
+		"conf": []
+	},
+	{
+ 		"name": "worker",
+ 		"size": 3,
+		"memory": 1024,
+		"disk": 200,
+		"cpu": 1,
+		"startip" :  201,
+		"host": "paulcentos",
+		"provision": [],
+		"alwaysrun": [],
+		"conf": []
+	}
+]

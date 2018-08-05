@@ -33,21 +33,4 @@ cd /usr/local
 rm -fr ./hadoop/tmp
 tar -zcf ./hadoop.tar.gz ./hadoop
 
-: << END
-
-echo "copy hadoop.tar.gz into workers"
-cd /usr/local
-scp ./hadoop.tar.gz slave1:/home/vagrant
-scp ./hadoop.tar.gz slave2:/home/vagrant
-scp ./hadoop.tar.gz slave3:/home/vagrant
-
-echo "unzip hadoop.tar.gz in slave1"
-ssh slave1 "sudo tar -zxf /home/vagrant/hadoop.tar.gz -C /usr/local"
-echo "unzip hadoop.tar.gz in slave2"
-ssh slave2 "sudo tar -zxf /home/vagrant/hadoop.tar.gz -C /usr/local"
-echo "unzip hadoop.tar.gz in slave3"
-ssh slave3 "sudo tar -zxf /home/vagrant/hadoop.tar.gz -C /usr/local"
-
-END
-
 echo "hadoop deployed"

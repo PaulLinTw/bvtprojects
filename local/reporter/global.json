@@ -6,21 +6,21 @@
 		{	"host": "paulcentos",
 			"account": "paul",
 			"keyfile": "/home/btserver/keys/paul",
-			"vagrantpath": "/home/paul/bvt",
+			"vagrantpath": "/home/paul/vt_workspace",
 			"nic": "wlp2s0",
-			"defaultbox": "CentOS-JDK8"
+			"defaultbox": "CentOS_JDK8"
 		}
 	],
 	"builder":
 	{
 		"nic": "wlp2s0",
-		"box": "CentOS-JDK8"		
+		"box": "CentOS_JDK8"		
 	},
 	"resource": 
 	{
 		"_site": "/home/paul/bvt-resources",
 		"_tag": "",
-		"site": "http://192.168.1.121/paullin/bvt-resources",
+		"site": "http://192.168.1.121/paullin/bvt-resources/raw",
 		"tag": "master"
 	}
 }

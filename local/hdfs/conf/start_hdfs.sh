@@ -9,10 +9,10 @@ copyconf(){
 }
 read -p "Type \"yes\" to copy hadoop config files into all nodes or \"Enter\" to skip." ans
 if [[ $ans == "yes" ]]; then
-	copyconf hdmaster1
-	copyconf hdslave1
-	copyconf hdslave2
-	copyconf hdslave3
+	copyconf @PREFIXER_master1
+	copyconf @PREFIXER_slave1
+	copyconf @PREFIXER_slave2
+	copyconf @PREFIXER_slave3
 fi
 
 echo starting hdfs ..

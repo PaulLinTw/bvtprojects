@@ -1,13 +1,13 @@
 {
-	"project": "sample",
-	"network": "192.168.43.",
-	"nettype": "HostOnly",
+	"project": "cluster",
+	"network": "192.168.56.",
+	"nettype": "hostonly",
 	"hosts": 
 	[
 		{	"host": "paulcentos",
 			"account": "paul",
 			"keyfile": "/home/paul/.ssh/id_rsa",
-			"vagrantpath": "/home/paul/bvt",
+			"vagrantpath": "/home/paul/vt_workspace",
 			"nic": "wlp2s0",
 			"defaultbox": "CentOS_JDK8"
 		}

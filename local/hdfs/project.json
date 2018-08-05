@@ -1,6 +1,6 @@
 [ 
 	{
- 		"name": "master",
+ 		"name": "hdfsmaster",
  		"size": 1,
 		"memory": 1536,
 		"disk": 150,
@@ -11,15 +11,15 @@
 		"alwaysrun": [],
 		"conf": [	"formate_hdfs.sh","deploy_cluster.sh",
 				"stop_hdfs.sh","start_hdfs.sh","stop_spark.sh","start_spark.sh","spark-env.sh",
-				"core-site.xml","hdfs-site.xml","mapred-site.xml","slaves","workers",
+				"core-site.xml","hdfs-site.xml","mapred-site.xml","workers",
 				"yarn-site.xml","ge_mapping","metrics.properties","start_graphite_exporter.sh"]
 	},
 	{
- 		"name": "slave",
+ 		"name": "hdfsslave",
  		"size": 3,
 		"memory": 1024,
 		"disk": 150,
-		"cpu": 1,
+		"cpu": 2,
 		"startip" :  151,
 		"host": "paulcentos",
 		"provision": [],

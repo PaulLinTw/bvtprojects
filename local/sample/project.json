@@ -1,0 +1,14 @@
+[ 
+	{
+ 		"name": "spamler",
+ 		"size": 1,
+		"memory": 2048,
+		"disk": 40,
+		"cpu": 2,
+		"startip" :  100,
+		"host": "paulcentos",
+		"provision": [],
+		"alwaysrun": [],
+		"conf": []
+	}
+]
