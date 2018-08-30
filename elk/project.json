@@ -1,0 +1,26 @@
+[ 
+	{
+ 		"name": "elkm",
+ 		"size": 1,
+		"memory": 16384,
+		"disk": 300,
+		"cpu": 4,
+		"startip" :  205,
+		"host": "dsc-01",
+		"provision": [],
+		"alwaysrun": [],
+		"conf": []
+	},
+	{
+ 		"name": "elks",
+ 		"size": 1,
+		"memory": 16384,
+		"disk": 300,
+		"cpu": 4,
+		"startip" :  206,
+		"host": "dsc-02",
+		"provision": [],
+		"alwaysrun": [],
+		"conf": []
+	}
+]

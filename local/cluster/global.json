@@ -1,6 +1,7 @@
 {
 	"project": "cluster",
 	"network": "192.168.56.",
+	"domain": "demo.com",
 	"nettype": "hostonly",
 	"hosts": 
 	[
@@ -22,5 +23,20 @@
 		"_site": "http://192.168.1.121/paullin/bvt-resources/raw",
 		"site": "https://raw.githubusercontent.com/PaulLinTw/vt-resources",
 		"tag": "master"
+	},
+	"replacement": 
+	{	"project":
+		{	"PREFIXER_":""	},
+		"scripts":
+		{
+		},
+		"conf":
+		{	"PREFIXER_":"",
+			"MemPerWorker":"768m",
+			"MemPerExecutor":"256m",
+			"MemPerDriver":"256m",
+			"CoresPerWorker":"2",
+			"CoresPerExecutor":"1"
+		}
 	}
 }

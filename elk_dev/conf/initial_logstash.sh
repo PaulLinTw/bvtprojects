@@ -1,5 +1,5 @@
-#/bin/bash!
-set -e
+source ./define.sh
+
 sudo yum install -y wget
 echo "Type \"yes\" to download logstash-6.3.1.tar.gz or \"Enter\" to skip."
 read ans

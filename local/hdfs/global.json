@@ -7,7 +7,7 @@
 		{	"host": "paulcentos",
 			"account": "paul",
 			"keyfile": "/home/paul/.ssh/id_rsa",
-			"vagrantpath": "/home/paul/vt_wokrspace",
+			"vagrantpath": "/home/paul/vt_workspace",
 			"nic": "wlp2s0",
 			"defaultbox": "CentOS_JDK8"
 		}

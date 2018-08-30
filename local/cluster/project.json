@@ -7,6 +7,8 @@
 		"cpu": 1,
 		"startip" :  199,
 		"host": "paulcentos",
+		"bind": [	"/home/paul/docking/images,/home/vagrant/images", 
+				"/run/media/paul/ssd_ext4/docker_volumes/registry,/home/vagrant/registry_data" ],
 		"provision": [],
 		"alwaysrun": ["start_portainter.sh"],
 		"conf": []
@@ -14,14 +16,17 @@
 	{
  		"name": "master",
  		"size": 1,
-		"memory": 2048,
+		"memory": 1024,
 		"disk": 200,
-		"cpu": 2,
+		"cpu": 1,
 		"startip" :  200,
 		"host": "paulcentos",
-		"provision": [],
+		"provision": ["initiate_hdfs.sh","initiate_scala.sh","initiate_spark.sh","initiate_ge.sh"],
 		"alwaysrun": [],
-		"conf": []
+		"conf": [	"formate_hdfs.sh","deploy_cluster.sh",
+				"stop_hdfs.sh","start_hdfs.sh","stop_spark.sh","start_spark.sh","spark-env.sh",
+				"core-site.xml","hdfs-site.xml","mapred-site.xml","workers",
+				"yarn-site.xml","ge_mapping","metrics.properties","start_graphite_exporter.sh" ]
 	},
 	{
  		"name": "worker",
