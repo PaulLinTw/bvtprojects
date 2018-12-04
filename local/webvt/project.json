@@ -1,11 +1,11 @@
 [ 
 	{
- 		"name": "spamler",
+ 		"name": "web",
  		"size": 1,
 		"memory": 2048,
 		"disk": 40,
 		"cpu": 2,
-		"startip" :  100,
+		"startip" :  110,
 		"host": "paulcentos",
 		"provision": [],
 		"alwaysrun": [],

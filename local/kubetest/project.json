@@ -1,0 +1,26 @@
+[ 
+	{
+ 		"name": "kbmaster",
+ 		"size": 1,
+		"memory": 2048,
+		"disk": 100,
+		"cpu": 2,
+		"startip" :  200,
+		"host": "paulcentos",
+		"provision": ["initiate_kubenets.sh"],
+		"alwaysrun": [],
+		"conf": ["config_kubenets.sh"]
+	},
+	{
+ 		"name": "kbworker",
+ 		"size": 2,
+		"memory": 2048,
+		"disk": 100,
+		"cpu": 2,
+		"startip" :  201,
+		"host": "paulcentos",
+		"provision": ["initiate_kubenets.sh"],
+		"alwaysrun": [],
+		"conf": ["config_kubenets.sh"]
+	}
+]

@@ -1,7 +1,7 @@
 {
-	"project": "sample",
+	"project": "sles12",
 	"network": "192.168.56.",
-	"nettype": "HostOnly",
+	"nettype": "hostonly",
 	"hosts": 
 	[
 		{	"host": "paulcentos",
@@ -9,13 +9,13 @@
 			"keyfile": "/home/paul/.ssh/id_rsa",
 			"vagrantpath": "/home/paul/vt_workspace",
 			"nic": "wlp2s0",
-			"defaultbox": "CentOS_JDK8"
+			"defaultbox": "suse/sles12sp2"
 		}
 	],
 	"builder":
 	{
 		"nic": "wlp2s0",
-		"box": "CentOS_JDK8"		
+		"box": "suse/sles12sp2"		
 	},
 	"resource": 
 	{

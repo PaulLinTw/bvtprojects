@@ -1,0 +1,29 @@
+## global definitions
+project: verticas
+network: 192.168.1.
+nettype: bridged
+hosts:
+    -   host: dsc-01
+        account: btserver
+        keyfile: /c/Users/paosh/.ssh/id_rsa
+        vagrantpath: /home/btserver/vagrantFiles/bvt
+        nic: enp3s0
+        defaultbox: CentOS_JDK8
+    -   host: dsc-02
+        account: btserver
+        keyfile: /c/Users/paosh/.ssh/id_rsa
+        vagrantpath: /home/btserver/vagrantFiles/bvt
+        nic: enp3s0
+        defaultbox: CentOS_JDK8
+    -   host: dsc-03
+        account: btserver
+        keyfile: /c/Users/paosh/.ssh/id_rsa
+        vagrantpath: /home/btserver/vagrantFiles/bvt
+        nic: enp3s0
+        defaultbox: CentOS_JDK8
+builder:
+    nic: enp3s0
+    box: CentOS_JDK8
+resource: 
+    site: http://192.168.1.121/paullin/bvt-resources/raw
+    tag: master

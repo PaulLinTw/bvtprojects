@@ -1,0 +1,17 @@
+## project definitions
+- name: node
+  size: 1
+  startip:  111
+  host: dsc-02
+  startid:  2
+  memory: 4096
+  disk: 200
+  cpu: 2
+- name: node
+  size: 2
+  startip:  112
+  host: dsc-03
+  startid:  3
+  memory: 4096
+  disk: 200
+  cpu: 2

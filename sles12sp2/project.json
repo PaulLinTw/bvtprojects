@@ -1,0 +1,26 @@
+[ 
+	{
+ 		"name": "susem",
+ 		"size": 1,
+		"memory": 4096,
+		"disk": 100,
+		"cpu": 2,
+		"startip" :  150,
+		"host": "dsc-03",
+		"provision": [],
+		"alwaysrun": [],
+		"conf": []
+	},
+	{
+ 		"name": "suses",
+ 		"size": 1,
+		"memory": 4096,
+		"disk": 100,
+		"cpu": 2,
+		"startip" :  151,
+		"host": "dsc-02",
+		"provision": [],
+		"alwaysrun": [],
+		"conf": []
+	}
+]
